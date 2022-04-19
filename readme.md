@@ -167,3 +167,51 @@
             System.out.println("You are a moderator");
         else
             System.out.println("You are a guest");
+# For Loops
+    better for situation where the number of iterations is known
+    for (int i = 0; i < 5; i++)
+    for (int i = 5; i > 0; i--)
+    System.out.println("Hello World " + i);
+
+# while loops
+        better for situtions where the number of iterations is unknown
+        for (int i = 5; i > 0; i--)
+          System.out.println("Hello World " + i);
+        int i = 0;
+        while (i > 0){
+            System.out.println("Hello World " + i);
+            i--;
+        }
+        String input = "";
+        Scanner scanner = new Scanner(System.in);
+        while (!input.equals("quit")){
+            System.out.print("Input: ");
+
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+        }
+
+## do while loop
+        String input = "";
+        Scanner scanner = new Scanner(System.in);
+        do {
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+
+            if (!input.equals("quit"))
+                System.out.println(input);
+            if (input.equals("pass"))
+                continue;
+            if (input.equals("quit"))
+                break;
+        } while (!input.equals("quit"));
+        while (true)
+            break;
+
+# For Each Loop
+        String[] fruits = {"Apple", "Mango", "Orange"};
+        for(int i = fruits.length; i > 0; i--)
+            System.out.println(fruits[i]);
+
+        for(String fruit : fruits)
+            System.out.println(fruit);
