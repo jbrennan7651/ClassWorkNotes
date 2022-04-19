@@ -109,7 +109,77 @@ public class Main {
         //System.out.print("Name: ");
         //String name = scanner.nextLine().trim();
         //System.out.println("You are " + name);
-        
+
+        //Comparison Operators
+        //int x = 1;
+        //int y = 1;
+        //System.out.println(x != y);
+        // == is the equality operator
+        // != is the false operator
+        // >= greater than or equal to
+        // <= less than or equal to
+
+        //Logical Operators
+        //int temperature = 32;
+        //boolean isWarm = temperature > 20 && temperature < 30;
+        //System.out.println(isWarm);
+
+        //or statements
+        //boolean hasHighIncome = true;
+        //boolean hasGoodCredit = true;
+        //|| is the or operator
+        //boolean isEligible = hasHighIncome || hasGoodCredit;
+
+        //is not true
+        //boolean hasHighIncome = true;
+        //boolean hasGoodCredit = true;
+        //boolean hasCriminalRecord = false;
+        //boolean isEligible = hasHighIncome || hasGoodCredit && !hasCriminalRecord;
+
+        //if statements
+        //int temp = 32;
+        //if (temp > 30) {
+            //System.out.println("It's a hot day");
+            //System.out.println("Drink Water");
+       // }
+        //else if (temp > 20)
+           // System.out.println("Beautiful Day");
+        //else
+            //System.out.println("Cold Day");
+
+        //Simplified If Statements
+        //int income = 120_000;
+        //boolean hasHighIncome = income > 100_000;
+
+        //The Ternary Operator
+        //int income = 120_000;
+        //String className = income > 100_000 ? "First" : "Economy";
+        // parameter? true : false
+
+        //Switch Statements
+        //String role = "admin";
+        //switch (role){
+          //  case "admin":
+            //    System.out.println("You're an admin");
+              //  break;
+
+           // case "moderator":
+             //   System.out.println("You are a moderator");
+               // break;
+
+            //default:
+              //  System.out.println("You are a guest");
+
+       // }
+
+        //if (role == "admin")
+         //   System.out.println("You're an admin");
+        //else if (role = "moderator")
+         //   System.out.println("You are a moderator");
+      //  else
+           // System.out.println("You are a guest");
+
+
 
 
     }
